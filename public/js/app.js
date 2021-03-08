@@ -20708,11 +20708,7 @@ var render = function() {
     "nav",
     { staticClass: "navbar navbar-expand-lg navbar-light bg-light" },
     [
-      _c(
-        "router-link",
-        { staticClass: "navbar-brand", attrs: { to: "/landingpage" } },
-        [_vm._v("Contacts")]
-      ),
+      _c("router-link", { staticClass: "navbar-brand" }, [_vm._v("Contacts")]),
       _vm._v(" "),
       _vm._m(0),
       _vm._v(" "),
